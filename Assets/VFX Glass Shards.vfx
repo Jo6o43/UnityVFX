@@ -220,7 +220,7 @@ MonoBehaviour:
     x: 35
     y: -527
     width: 6165
-    height: 1896
+    height: 1874
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1391,7 +1391,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 5
     m_Space: -1
   m_Property:
     name: A
@@ -1425,7 +1425,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 10
     m_Space: -1
   m_Property:
     name: B
@@ -4074,7 +4074,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616122}
   - {fileID: 8926484042661616143}
   dataType: 0
-  capacity: 64
+  capacity: 250
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -4770,7 +4770,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 5
     m_Space: -1
   m_Property:
     name: A
@@ -4804,7 +4804,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 10
     m_Space: -1
   m_Property:
     name: B
@@ -7257,7 +7257,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616224}
   - {fileID: 8926484042661616245}
   dataType: 0
-  capacity: 64
+  capacity: 250
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -7953,7 +7953,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 5
     m_Space: -1
   m_Property:
     name: A
@@ -7987,7 +7987,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 10
     m_Space: -1
   m_Property:
     name: B
@@ -10440,7 +10440,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616326}
   - {fileID: 8926484042661616347}
   dataType: 0
-  capacity: 64
+  capacity: 250
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -11136,7 +11136,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 5
     m_Space: -1
   m_Property:
     name: A
@@ -11170,7 +11170,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 10
     m_Space: -1
   m_Property:
     name: B
@@ -13623,7 +13623,7 @@ MonoBehaviour:
   - {fileID: 8926484042661616428}
   - {fileID: 8926484042661616449}
   dataType: 0
-  capacity: 64
+  capacity: 250
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -14319,7 +14319,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3
+      m_SerializableObject: 5
     m_Space: -1
   m_Property:
     name: A
@@ -14353,7 +14353,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 4
+      m_SerializableObject: 10
     m_Space: -1
   m_Property:
     name: B
