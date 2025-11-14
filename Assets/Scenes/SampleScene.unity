@@ -488,7 +488,10 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 80
+        m_Name: GlassShards SpawRate
+        m_Overridden: 0
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -496,8 +499,17 @@ VisualEffect:
       - m_Value: {x: 80, y: 5, z: 50}
         m_Name: MaxPos
         m_Overridden: 1
+      - m_Value: {x: 35, y: 5, z: 15}
+        m_Name: Spawn Area
+        m_Overridden: 0
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 1.138696, y: 1.6881366, z: 1.6391765, w: 0}
+        m_Name: Blue 1
+        m_Overridden: 1
+      - m_Value: {x: 1.989395, y: 2.9391012, z: 2.949313, w: 0}
+        m_Name: Blue 2
+        m_Overridden: 1
     m_Uint:
       m_Array: []
     m_Int:
@@ -521,7 +533,7 @@ Transform:
   m_GameObject: {fileID: 1449504176}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5, y: 23.8, z: -1.2}
+  m_LocalPosition: {x: 14.9, y: 23.8, z: 8.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
