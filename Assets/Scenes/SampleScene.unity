@@ -5589,9 +5589,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c40498665ea40341ae1094d4d204b5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  effect1: {fileID: 1449504176}
-  effect2: {fileID: 1604028159}
-  timeBetween: 5
+  effect1: {fileID: 1449504178}
+  effect1_spawnRate: 0
+  effect2: {fileID: 1604028161}
+  effect2_spawnRate: 0
+  timeBetween: 3
+  duration: 5
   camTransform: {fileID: 330585546}
   shakeAmount: 0.4
   decreaseFactor: 1
