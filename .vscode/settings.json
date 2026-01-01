@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "VisualEffect-TCGEV.sln"
+    "dotnet.defaultSolution": "VisualEffect-TCGEV.slnx"
 }
