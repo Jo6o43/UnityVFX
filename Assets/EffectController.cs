@@ -10,6 +10,8 @@ public class EffectController : MonoBehaviour
     [SerializeField] public float effect1_spawnRate;
     [SerializeField] public VisualEffect effect2;
     [SerializeField] public float effect2_spawnRate;
+    [SerializeField] public GameObject blueParticles;
+    [SerializeField] public GameObject blueSparks;
     [SerializeField] public float timeBetween = 3.0f;
     [SerializeField] public float duration = 5.0f;
 
@@ -27,6 +29,10 @@ public class EffectController : MonoBehaviour
 
         if (effect1 != null) effect1.SetFloat("SpawnRate", 0f);
         if (effect2 != null) effect2.SetFloat("SpawnRate", 0f);
+
+        if (blueParticles != null) blueParticles.SetActive(false);
+        if (blueSparks != null) blueSparks.SetActive(false);
+
 
         camTransform = GetComponent(typeof(Transform)) as Transform;
         originalPos = camTransform.localPosition;
@@ -71,6 +77,16 @@ public class EffectController : MonoBehaviour
         {
             effect2.SetFloat("SpawnRate", effect2_spawnRate);
         }
+
+        if (blueParticles != null)
+        {
+            blueParticles.SetActive(true);
+        }
+
+        if (blueSparks != null)
+        {
+            blueSparks.SetActive(true);
+        }
         
         cameraShake = true;
     }
@@ -88,6 +104,16 @@ public class EffectController : MonoBehaviour
         if (effect2 != null)
         {
             effect2.SetFloat("SpawnRate", 0f);
+        }
+
+        if (blueParticles != null)
+        {
+            blueParticles.SetActive(false);
+        }
+
+        if (blueSparks != null)
+        {
+            blueSparks.SetActive(false);
         }
 
         yield return new WaitForSeconds(1.0f);
